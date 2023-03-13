@@ -27,3 +27,8 @@ searchButton.addEventListener("click", () => {
   const searchTerm = searchInput.value;
   getMovies(searchTerm);
 });
+
+searchInput.addEventListener("keydown", () => {
+  const searchTerm = searchInput.value;
+  getMovies(searchTerm);
+});
